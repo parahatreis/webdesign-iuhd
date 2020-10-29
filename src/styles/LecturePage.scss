@@ -1,0 +1,21 @@
+// LecturePage
+
+article {
+   h1 {
+      font-size: $l-size;
+      color: grey;
+      margin: 1.5rem 0;
+   }
+   .row{
+      display: flex;
+      a {
+         margin-right:  1rem;
+         text-decoration: none;
+         display: block;
+         height: 40px;
+         img {
+            height: 100%;
+         }
+      }
+   }
+}
