@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86d11353.chunk.css",
+    "main.js": "/static/js/main.c829c2f4.chunk.js",
+    "main.js.map": "/static/js/main.c829c2f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f8c5b4be.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f8c5b4be.js.map",
+    "static/js/2.91cb25be.chunk.js": "/static/js/2.91cb25be.chunk.js",
+    "static/js/2.91cb25be.chunk.js.map": "/static/js/2.91cb25be.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9cf7974ef3de2ab6b67b0a271ef77553.js": "/precache-manifest.9cf7974ef3de2ab6b67b0a271ef77553.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.86d11353.chunk.css.map": "/static/css/main.86d11353.chunk.css.map",
+    "static/js/2.91cb25be.chunk.js.LICENSE.txt": "/static/js/2.91cb25be.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/Saira-Regular.fb67c607.ttf",
+    "static/media/doc.png": "/static/media/doc.3082ea12.png",
+    "static/media/ppt.png": "/static/media/ppt.1d0014c9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8c5b4be.js",
+    "static/js/2.91cb25be.chunk.js",
+    "static/css/main.86d11353.chunk.css",
+    "static/js/main.c829c2f4.chunk.js"
+  ]
+}
