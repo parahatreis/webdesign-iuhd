@@ -34,6 +34,10 @@ const LecturePage = ({match}) => {
    const ppt_url = `/assets/ppt/${ppt}`;
    const doc_url = `/assets/doc/${doc}`;
 
+   if(video) console.log(video);
+   if(body) console.log(body);
+
+
    
 
    return (

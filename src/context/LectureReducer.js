@@ -5,7 +5,7 @@ export default (state,action) => {
       case 'GET_LECTURE':
          return {
             ...state,
-            lecture : state.lectures.find(lecture => lecture.id == action.payload),
+            lecture : state.lectures.find(lecture => lecture.id === action.payload),
             loading: false
          }
       case 'SET_LOADING':
@@ -13,5 +13,7 @@ export default (state,action) => {
             ...state,
             loading: true
          }
+      default:
+         return state
    }
 }
