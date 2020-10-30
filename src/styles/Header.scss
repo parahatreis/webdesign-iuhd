@@ -8,8 +8,12 @@ nav{
 nav{
    height: 80px;
    .logo{
-      font-size: $m-size;
-      font-weight: bold;
+      width: 60px;
+      // font-size: $m-size;
+      // font-weight: bold;
+      img {
+         width: 60px;
+      }
    }
    ul {
       list-style: none;

@@ -1,6 +1,6 @@
 @font-face {
-   src: url('../sources/fonts/Saira/Saira-Regular.ttf');
-   font-family: Saira Regular;
+   src: url('../sources/fonts/Nunito/Nunito-Regular.ttf');
+   font-family: my_font;
 }
 
 /* Colors & SIZES */
@@ -18,7 +18,7 @@ $xs-size : 14px;
 
 *{
    box-sizing: border-box;
-   font-family: Saira Regular;
+   font-family: my_font;
 }
 body {
    margin: 0;
@@ -36,6 +36,8 @@ footer {
    padding: 1rem 0;
    p{
       text-align: center;
+      font-size: 0.8rem;
+      margin: 0;
       opacity: 0.7;
    }
 }
@@ -50,4 +52,5 @@ footer {
 @import './Header.scss';
 @import './Lectures.scss';
 @import './LecturePage.scss';
+@import './About.scss';
 

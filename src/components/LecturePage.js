@@ -25,7 +25,6 @@ const LecturePage = ({match}) => {
       id,
       title,
       body,
-      video,
       doc,
       ppt
    } = lecture;
@@ -34,20 +33,25 @@ const LecturePage = ({match}) => {
    const ppt_url = `/assets/ppt/${ppt}`;
    const doc_url = `/assets/doc/${doc}`;
 
-   if(video) console.log(video);
-   if(body) console.log(body);
-
-
-   
-
    return (
       <>
       <Navbar aboutPage={true} />
       <div className="container">
          <article data-row={id}>
+         {/* LECTURE TITLE */}
             <h1>
                {title}
             </h1>
+            {/* LECTURE BODY */}
+            <div>
+               <p className="lecture-body">
+                  {body}
+               </p>
+            </div>
+            {/* DOX PPT FILES */}
+            <div className="download">
+               You can download .ppt or .docx files of "{title}" lecture :
+            </div>
             <div className="row">
                <a href={ppt_url} className="icons" download>
                   <img src={PptImg} alt="ppt" />

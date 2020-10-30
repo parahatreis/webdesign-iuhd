@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Logo from '../../sources/images/IUHD-LOGO-WHITE-01.png'
+
 const Navbar = (props) => {
    return (
       <div className="container">
          <nav>
-            <div className="logo">LOGO</div>
+            <div className="logo">
+               <img src={Logo} alt="logo" />
+            </div>
             <ul>
                <li>
                   <Link to="/" style={{color : `${props.aboutPage ? 'black' : 'white'}` }} >Lectures</Link>

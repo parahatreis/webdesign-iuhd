@@ -3,13 +3,13 @@
 article {
    h1 {
       font-size: $l-size;
-      color: grey;
       margin: 1.5rem 0;
    }
    .row{
+      margin-top: 1rem;
       display: flex;
       a {
-         margin-right:  1rem;
+         margin-right:  2rem;
          text-decoration: none;
          display: block;
          height: 40px;
@@ -17,5 +17,14 @@ article {
             height: 100%;
          }
       }
+   }
+   .lecture-body {
+      color: rgb(43, 43, 43);
+      padding: 1rem 0;
+      font-size: 1.1rem;
+      line-height: 2rem;
+   }
+   .download {
+      color: rgb(99, 99, 99);
    }
 }
